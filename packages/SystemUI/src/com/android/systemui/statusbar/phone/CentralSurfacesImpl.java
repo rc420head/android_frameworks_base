@@ -422,6 +422,13 @@ public class CentralSurfacesImpl implements CoreStartable, CentralSurfaces, Tune
     public void togglePanel() {
         mCommandQueueCallbacks.togglePanel();
     }
+
+    /** */
+    @Override
+    public void toggleCameraFlash() {
+        mCommandQueueCallbacks.toggleCameraFlash();
+    }
+
     /**
      * The {@link StatusBarState} of the status bar.
      */
